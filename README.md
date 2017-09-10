@@ -55,3 +55,16 @@ ML challenge for Indiahacks '17
  - "min_dist_lane": mean of geographical distances between adjacent lanes,
  - "sum_left_dist": sum of distances on left side,
  - "sum_right_dist": sum of distances on right side
+ 
+ **Movie Recommendation**
+ 
+ - For every user to be predicted, find his maximum occuring language/genre. And serve him movies within that subgroup(language/genre).
+ - Item-item based collaborative filtering, on a subset of users(who’ve watched more than ‘n’ number of movies)
+
+Features
+
+ - Watch Ratio: Ratio of movie watched
+ - Ratio of watch time with mean watch time of the same language
+ - Ratio of watch time with mean watch time of the same genre
+
+All these features were experimented to find the “maximal occuring language/genre”
